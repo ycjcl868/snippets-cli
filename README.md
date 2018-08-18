@@ -45,7 +45,27 @@ the following properties:
 - `template`: **Note: The file name format is {custom name}.{filename suffix}.snippet**
 - `target`: target generation directory
 
-2. Configure `script: { 'tpl': 'snippets' }` in `package.json` 
+2. In the `.snippet` template file, write your template code, and replace the file name variable with **{{}}**
+
+```js
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+export default class {{ }} extends Component {
+  static propTypes = {
+
+  }
+  render() {
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
+```
+
+3. Configure `script: { 'tpl': 'snippets' } in `package.json`
 
 ### Usage
 After configuration, execute `npm run tpl` in the project root directory, select the corresponding template, and enter the file name to generate the template.

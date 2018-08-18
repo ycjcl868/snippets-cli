@@ -47,7 +47,27 @@ $ npm i snippets-cli -D
 - `template`: **注意：文件名格式是 {自定义名称}.{文件名后缀}.snippet**
 - `target`: 目标生成目录
 
-2. 在 `package.json` 里配置 `script: { 'tpl': 'snippet' }`
+2. 在 `.snippet` 模板文件中，写入你的模板代码，文件名变量用 **{{}}** 代替
+
+```js
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+export default class {{ }} extends Component {
+  static propTypes = {
+
+  }
+  render() {
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
+```
+
+3. 在 `package.json` 里配置 `script: { 'tpl': 'snippet' }`
 
 ### 使用
 配置好后，在项目根目录下去执行 `npm run tpl` ，选择相应的模板，输入文件名，就可以生成模板了。
