@@ -67,7 +67,7 @@ export default class {{ }} extends Component {
 }
 ```
 
-3. 在 `package.json` 里配置 `script: { 'tpl': 'snippet' }`
+3. 在 `package.json` 里配置 `scripts: { 'tpl': 'snippet' }`
 
 ### 使用
 配置好后，在项目根目录下去执行 `npm run tpl` ，选择相应的模板，输入文件名，就可以生成模板了。
