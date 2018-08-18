@@ -1,4 +1,6 @@
 # snippets-cli
+[English Docs](./README.md)
+
 > 在项目中，经常会初始化一些重复的代码片段(例如: Controller/Model/Component/...)，我们也许会新建文件、复制、粘贴、修改名称。
 
 `Snippets-cli` 要做的事，是将这部分重复的初始化工作配置化，用命令去生成。这有利于提高效率，减少重复性工作。
@@ -42,7 +44,7 @@ $ npm i snippets-cli -D
 有如下属性：
 
 - `name`: 提示信息
-- `template`: ** 注意：文件名格式是 {自定义名称}.{文件名后缀}.snippet **
+- `template`: **注意：文件名格式是 {自定义名称}.{文件名后缀}.snippet**
 - `target`: 目标生成目录
 
 2. 在 `package.json` 里配置 `script: { 'tpl': 'snippet' }`
