@@ -51,3 +51,10 @@ After configuration, execute `npm run tpl` in the project root directory, select
 
 ## Screenshot
 ![](https://user-images.githubusercontent.com/13595509/44296557-db9c3400-a2f3-11e8-9a30-bc2c66c542d0.png)
+
+## TODO
+ - [] plugin to extend the fragment (eg React / Vue / Koa / Express / Eggjs snippets, or use others' great code snippets)
+ - [] not only in FE, it can be used in any programming language
+
+## Contribution
+`snippets-cli` is still just a prototype, hope the community will build together.

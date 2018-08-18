@@ -2,17 +2,17 @@
   "snippets": {
     "controller": {
       "name": "新建控制器",
-      "template": "./snippets/controller.js.snippet",
+      "template": "./snippet/controller.js.snippet",
       "target": "./controller"
     },
     "model": {
       "name": "新建模型",
-      "template": "./snippets/model.js.snippet",
+      "template": "./snippet/model.js.snippet",
       "target": "./model"
     },
     "component": {
       "name": "新建组件",
-      "template": "./snippets/component.js.snippet",
+      "template": "./snippet/component.js.snippet",
       "target": "./component"
     }
   }

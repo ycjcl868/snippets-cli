@@ -13,7 +13,7 @@ $ npm i snippets-cli -D
 ### 配置
 1.新建 `.snippetrc` 文件，例如
 
-```json
+```js
 {
   "snippets": {
     "controller": {
@@ -52,3 +52,10 @@ $ npm i snippets-cli -D
 
 ## 截图
 ![](https://user-images.githubusercontent.com/13595509/44296557-db9c3400-a2f3-11e8-9a30-bc2c66c542d0.png)
+
+## 将要去做的事
+- [ ] 插件扩展机制(像 React/Vue/Koa/Express/Eggjs 常用的代码片段，也可以用一些大牛的代码片段)
+- [ ] Not Only in FE, it can use in any programming languages
+
+## 贡献
+`snippets-cli` 现在还只是一个雏形，希望社区一起共建。
