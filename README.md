@@ -1,4 +1,5 @@
 # snippets-cli
+[中文文档](./README_CN.md)
 >  In the project, some repeated code snippets are often initialized (for example: Controller/Model/Component/...), we may create new files, copy, paste, and modify names.
 
 The thing to do with `Snippets-cli` is to configure this part of the repeated initialization work and generate it with commands. It will help improve efficiency, reduce the repeated work.
