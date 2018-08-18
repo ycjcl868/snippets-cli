@@ -12,7 +12,7 @@ $ npm i snippets-cli -D
 ### Configuration
 1. Create a new `.snippetrc` file, for example
 
-```json
+```js
 {
   "snippets": {
     "controller": {
