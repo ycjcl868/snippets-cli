@@ -1,7 +1,7 @@
 # snippets-cli
 >  In the project, some repeated code snippets are often initialized (for example: Controller/Model/Component/...), we may create new files, copy, paste, and modify names.
 
-The thing to do with `Snippets-cli` is to configure this part of the repeated initialization work and generate it with commands.
+The thing to do with `Snippets-cli` is to configure this part of the repeated initialization work and generate it with commands. It will help improve efficiency, reduce the repeated work.
 
 ## Quick start
 ### Installation
@@ -41,10 +41,10 @@ $ npm i snippets-cli -D
 the following properties:
 
 - `name`: prompt message
-- `template`: ** Note: The file name format is {custom name}.{filename suffix}.snippet **
+- `template`: **Note: The file name format is {custom name}.{filename suffix}.snippet**
 - `target`: target generation directory
 
-2. Configure `script: { 'tpl': 'snippets' } in `package.json`
+2. Configure `script: { 'tpl': 'snippets' }` in `package.json` 
 
 ### Usage
 After configuration, execute `npm run tpl` in the project root directory, select the corresponding template, and enter the file name to generate the template.
