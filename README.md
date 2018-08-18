@@ -65,7 +65,7 @@ export default class {{ }} extends Component {
 }
 ```
 
-3. Configure `script: { 'tpl': 'snippets' } in `package.json`
+3. Configure `scripts: { 'tpl': 'snippets' } in `package.json`
 
 ### Usage
 After configuration, execute `npm run tpl` in the project root directory, select the corresponding template, and enter the file name to generate the template.
