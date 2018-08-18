@@ -1,0 +1,41 @@
+{
+  "name": "snippets-cli",
+  "version": "0.0.10",
+  "description": "snippets-cli",
+  "main": "./lib/cli.js",
+  "bin": {
+    "snippets": "./bin/snippets.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "dev": "node bin/snippet.js",
+    "tpl": "node bin/snippet.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "install-alinode": "3.11.2"
+  },
+  "author": "ycjcl868",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "^0.0.30",
+    "@types/js-yaml": "^3.11.2",
+    "@types/node": "^10.7.0",
+    "@types/inquirer": "^0.0.43",
+    "@types/mkdirp": "^0.5.2",
+    "@types/strip-json-comments": "^0.0.30",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "inquirer": "^6.1.0",
+    "js-yaml": "^3.12.0",
+    "mkdirp": "^0.5.1",
+    "require-uncached": "^1.0.3",
+    "strip-json-comments": "^2.0.1"
+  }
+}
