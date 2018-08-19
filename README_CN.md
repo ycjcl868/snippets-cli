@@ -1,4 +1,7 @@
 # snippets-cli
+![travis](https://img.shields.io/travis/ycjcl868/snippets-cli.svg) [![npm](https://img.shields.io/npm/v/snippets-cli.svg)](https://www.npmjs.com/package/snippets-cli) ![downloads](https://img.shields.io/npm/dw/snippets-cli.svg
+)
+
 [English Docs](./README.md)
 
 > 在项目中，经常会初始化一些重复的代码片段(例如: Controller/Model/Component/...)，我们也许会新建文件、复制、粘贴、修改名称。
@@ -76,8 +79,12 @@ export default class {{ }} extends Component {
 ![](https://user-images.githubusercontent.com/13595509/44296557-db9c3400-a2f3-11e8-9a30-bc2c66c542d0.png)
 
 ## 将要去做的事
+- [ ] 补测试用例
 - [ ] 插件扩展机制(像 React/Vue/Koa/Express/Eggjs 常用的代码片段，也可以用一些大牛的代码片段)
 - [ ] 不仅在前端使用，也可以用在任何一门编程语言上。
+
+## 更新日志
+- 2018.8.19 v1.0.0 发布
 
 ## 贡献
 `snippets-cli` 现在还只是一个雏形，希望社区一起共建。

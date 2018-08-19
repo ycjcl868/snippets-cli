@@ -1,4 +1,7 @@
 # snippets-cli
+![travis](https://img.shields.io/travis/ycjcl868/snippets-cli.svg) [![npm](https://img.shields.io/npm/v/snippets-cli.svg)](https://www.npmjs.com/package/snippets-cli) ![downloads](https://img.shields.io/npm/dw/snippets-cli.svg
+)
+
 [中文文档](./README_CN.md)
 >  In the project, some repeated code snippets are often initialized (for example: Controller/Model/Component/...), we may create new files, copy, paste, and modify names.
 
@@ -74,8 +77,12 @@ After configuration, execute `npm run tpl` in the project root directory, select
 ![](https://user-images.githubusercontent.com/13595509/44296557-db9c3400-a2f3-11e8-9a30-bc2c66c542d0.png)
 
 ## TODO
+ - [ ] add test cases
  - [ ] plugin to extend the fragment (eg React / Vue / Koa / Express / Eggjs snippets, or use others' great code snippets)
  - [ ] not only in FE, it can be used in any programming language
+
+## Changelog
+- 2018.8.19 v1.0.0
 
 ## Contribution
 `snippets-cli` is still just a prototype, hope the community will build together.

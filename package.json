@@ -1,13 +1,16 @@
 {
   "name": "snippets-cli",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "snippets-cli",
   "main": "./lib/cli.js",
   "bin": {
     "snippets": "./bin/snippets.js"
   },
   "scripts": {
+    "precommit": "npm run lint-staged",
+    "lint-staged": "lint-staged",
     "prepublish": "npm run build",
+    "lint": "eslint --ext .ts .",
     "dev": "node bin/snippet.js",
     "tpl": "node bin/snippet.js",
     "build": "tsc",
@@ -17,15 +20,20 @@
   "engines": {
     "install-alinode": "3.11.2"
   },
+  "lint-staged": {
+    "src/*.ts": "npm run lint"
+  },
   "author": "ycjcl868",
   "license": "ISC",
   "devDependencies": {
     "@types/debug": "^0.0.30",
-    "@types/js-yaml": "^3.11.2",
-    "@types/node": "^10.7.0",
     "@types/inquirer": "^0.0.43",
+    "@types/js-yaml": "^3.11.2",
     "@types/mkdirp": "^0.5.2",
+    "@types/node": "^10.7.0",
     "@types/strip-json-comments": "^0.0.30",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
   },
@@ -37,5 +45,17 @@
     "mkdirp": "^0.5.1",
     "require-uncached": "^1.0.3",
     "strip-json-comments": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ycjcl868/snippets-cli"
+  },
+  "keywords": [
+    "snippets",
+    "template",
+    "efficiency"
+  ],
+  "bugs": {
+    "url": "https://github.com/ycjcl868/snippets-cli/issues"
   }
 }
