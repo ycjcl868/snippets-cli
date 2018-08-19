@@ -15,7 +15,7 @@
     "tpl": "node bin/snippet.js",
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "engines": {
     "install-alinode": "3.11.2"
