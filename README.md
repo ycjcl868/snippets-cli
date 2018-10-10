@@ -1,4 +1,7 @@
 # snippets-cli
+
+> You can use the latest VSCode [project-level-snippets](https://code.visualstudio.com/updates/v1_28#_project-level-snippets)
+
 ![travis](https://img.shields.io/travis/ycjcl868/snippets-cli.svg) [![npm](https://img.shields.io/npm/v/snippets-cli.svg)](https://www.npmjs.com/package/snippets-cli) ![downloads](https://img.shields.io/npm/dw/snippets-cli.svg
 )
 
